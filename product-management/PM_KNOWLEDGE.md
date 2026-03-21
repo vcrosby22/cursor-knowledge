@@ -16,10 +16,10 @@ Synthesized reference for **software, hardware, UI/UX, data-intensive, and AI/ML
 | Metrics, prioritization scores, roadmaps | §4 Data, prioritization, roadmaps |
 | ML viability, responsible AI, LLM security, regulation | §5 AI / ML |
 | Product idea framing, defensibility, what to optimize for first | §6 Ideation & strategy vocabulary |
-| **Backlog hygiene** — ordering, refinement, DEEP/INVEST, discovery vs delivery | §7 Backlog management |
+| **Backlog hygiene** — ordering, refinement, DEEP/INVEST, discovery vs delivery | §7 Backlog management · [`BACKLOG_BEST_PRACTICES.md`](BACKLOG_BEST_PRACTICES.md) (public URL list) |
 | Plain definitions, acronyms, non-developer onboarding vocabulary; **Category** for user-outcome filtering | [`GLOSSARY.md`](GLOSSARY.md) |
 
-**Changelog:** 2026-03-20 — **§7 Backlog management** (workspace Purpose → Epic → Story, DEEP/refinement pointers). 2026-03-20 — GLOSSARY: **Parent outcome** categories + **BL-29**. Link to `GLOSSARY.md` for terms sheet. §6 workspace capture (ideation example, defensibility, choice lenses). 2026-03-19 — Initial synthesis from 27 web sources (`SOURCE_INDEX.md`).
+**Changelog:** 2026-03-21 — **§7** split: public best practices + abstract layering; curated URLs moved to [`BACKLOG_BEST_PRACTICES.md`](BACKLOG_BEST_PRACTICES.md). 2026-03-20 — **§7 Backlog management** (workspace Purpose → Epic → Story, DEEP/refinement pointers). 2026-03-20 — GLOSSARY: **Parent outcome** categories + **BL-29**. Link to `GLOSSARY.md` for terms sheet. §6 workspace capture (ideation example, defensibility, choice lenses). 2026-03-19 — Initial synthesis from 27 web sources (`SOURCE_INDEX.md`).
 
 ---
 
@@ -218,7 +218,7 @@ Useful forcing questions (not mutually exclusive):
 
 ---
 
-## 7. Backlog management (hygiene, shape, and this workspace)
+## 7. Backlog management (hygiene, shape, public vs private)
 
 **Why this section:** Product backlogs fail when they are unordered junk drawers. Industry practice emphasizes **ordering**, **refinement**, and **right-sized** items near the top — without pretending the far future is fully specified.
 
@@ -230,19 +230,21 @@ Useful forcing questions (not mutually exclusive):
 - **Stories and INVEST** — Small, valuable backlog items benefit from **INVEST**-style quality (independent, negotiable, valuable, estimable, small, testable) and **splitting** when one card hides multiple goals or too much risk.
 - **Discovery vs delivery** — Some teams separate **opportunity / discovery** work from **committed build** items so they validate problems before over-investing (see SVPG “opportunity backlog” framing in the reading list below).
 
-### 7.2 How `where_cursor_feels_home` implements this
+**Curated reading list (13+ URLs):** [`BACKLOG_BEST_PRACTICES.md`](BACKLOG_BEST_PRACTICES.md) — Scrum Guide, refinement, Pichler, SVPG, INVEST, story splitting. Share that file with anyone; it contains **no** private backlog rows.
 
-This workspace uses **markdown as source of truth** with a strict hierarchy:
+### 7.2 A concrete layering pattern (abstract)
 
-1. **Purpose** (`PU-NN`) — *Why* a strand of work exists (strategic outcome / north-star bucket).
-2. **Epic** (`EP-NN`) — Theme under one Purpose; every story rolls up through exactly one Epic.
-3. **Story** — **`BL-##`** row in [`BACKLOG.md`](../../BACKLOG.md) (**Title** = required) plus optional narrative in [`BACKLOG_STORY_DETAILS.md`](../../BACKLOG_STORY_DETAILS.md); optional rich file in [`backlog/tickets/`](../../backlog/tickets/) (`TKT-NNNNN`).
+Many knowledge-work teams (including markdown-first Cursor workspaces) use **three visible levels** above a single ordered backlog:
 
-**Required on a story:** **title** + **epic** (which implies **purpose** via [`backlog/EPIC_REGISTRY.md`](../../backlog/EPIC_REGISTRY.md)). **Description** is encouraged for refinement but **not required** in the ticketing template.
+1. **Purpose** — *Why* a strand of work exists (strategic outcome / north-star bucket). Stable keys (e.g. `PU-01`) help search and reporting.
+2. **Epic** — Theme under exactly one Purpose; every backlog item rolls up through one Epic.
+3. **Story** — One line in a **prioritized table** (headline + priority + status) plus optional long-form **description** elsewhere; optional per-item files for history, assignee, or paste-friendly detail.
 
-**Curated reading list (13+ URLs):** [`BACKLOG_PRODUCT_PRACTICES_URLS.md`](../../cursor-knowledge/BACKLOG_PRODUCT_PRACTICES_URLS.md) — Scrum Guide, refinement, Pichler, SVPG, INVEST, story splitting.
+**Typical rules of thumb:** each story needs at least a **title** and **epic** (which implies **purpose** via an epic registry). **Description** is encouraged for refinement but can stay optional in the slim index.
 
-**Workspace specs:** [`BACKLOG_HIERARCHY.md`](../../BACKLOG_HIERARCHY.md) · [`backlog/TICKETING_MODEL.md`](../../backlog/TICKETING_MODEL.md) · [`backlog/PURPOSE_REGISTRY.md`](../../backlog/PURPOSE_REGISTRY.md).
+### 7.3 Private implementation (not in this public repository)
+
+The **author’s** actual prioritized list, inbox, ticket files, purpose/epic registries, and automation live in a **private** monorepo (`where_cursor_feels_home`). They are intentionally **not** published in [`vcrosby22/cursor-knowledge`](https://github.com/vcrosby22/cursor-knowledge). If you clone only this public repo, use §7.1–7.2 and [`BACKLOG_BEST_PRACTICES.md`](BACKLOG_BEST_PRACTICES.md); adopt your own tool or private files for the backlog itself.
 
 ---
 
