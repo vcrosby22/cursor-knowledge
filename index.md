@@ -2,17 +2,35 @@
 
 Welcome to a **free, open collection** of guides, technical knowledge, and resources for learning [Cursor](https://www.cursor.com/) and AI-assisted work.
 
-**Cursor** is a code editor with a built-in AI assistant. You don't need to be a developer to use it. People use Cursor to write, plan, research, build websites, and turn ideas into working prototypes — by talking to the assistant instead of writing code from scratch.
-
 ---
 
-## Choose your path
+## Who is this for?
 
 === "Beginner"
 
-    **Never used Cursor or AI tools before?** Start here:
+    **You've never used Cursor or AI coding tools.** Maybe you're not a developer at all — you're a writer, PM, researcher, or someone curious about building things with AI. You want to try it without needing to learn programming first.
 
-    1. [**Install Cursor & first steps**](onboarding/guides/installing-cursor-and-first-steps.md) — download, open a folder, first conversation
+    *This knowledge base will walk you through installing Cursor, having your first AI conversation, and building your first project — in plain language, with no code required.*
+
+=== "Intermediate"
+
+    **You've used Cursor (or similar AI tools) and you're comfortable with the basics.** You can have a conversation with the assistant and get useful output, but you want to go deeper — managing context across sessions, using Git to save and share work, and customizing how the assistant behaves.
+
+    *This knowledge base will help you level up your workflow, avoid common mistakes, and build more reliably.*
+
+=== "Advanced"
+
+    **You're an engineer, researcher, or technical power user.** You want to understand the systems behind AI assistants — LLM architectures, agent design patterns, context engineering, evaluation, and deployment. You read papers and want scholarly references, not just how-to guides.
+
+    *This knowledge base includes a deep technical section with 54 annotated scholarly sources, plus 100+ total references across all topics.*
+
+---
+
+## Start here
+
+=== "Beginner"
+
+    1. [**Install Cursor & first steps**](onboarding/guides/installing-cursor-and-first-steps.md) — download, open a folder, first conversation *(10 min)*
     2. [**Building with agentic AI**](onboarding/guides/building-with-agentic-ai-non-technical.md) — the mindset: you steer, the AI builds
     3. [**First-week checklist**](onboarding/checklists/first-week-cursor-non-technical.md) — a light daily plan for days 1–7
 
@@ -20,25 +38,22 @@ Welcome to a **free, open collection** of guides, technical knowledge, and resou
 
 === "Intermediate"
 
-    **Comfortable with Cursor, ready to go deeper?**
-
-    - [**Working with AI context**](onboarding/guides/working-with-ai-context.md) — when to start a new chat, keeping the assistant accurate
+    - [**Working with AI context**](onboarding/guides/working-with-ai-context.md) — why the assistant forgets, and how to keep it accurate
     - [**Session playbook**](onboarding/guides/cursor-session-playbook.md) — terminal, GitHub, static sites, journaling
     - [**Git basics for non-developers**](onboarding/guides/git-basics-for-non-developers.md) — save versions, share on GitHub
+    - [**Triggers & prompts**](onboarding/guides/cursor-triggers-and-prompts.md) — customize assistant behavior with rules and commands
     - [**Glossary**](product-management/GLOSSARY.md) — plain-language definitions for technical terms
 
 === "Advanced"
 
-    **Engineer, researcher, or power user?**
-
-    - [**AI Engineering knowledge base**](ai-engineering/README.md) — LLM foundations, agentic AI, context engineering, full-stack LLM, AI services (54 scholarly sources)
+    - [**AI Engineering knowledge base**](ai-engineering/README.md) — LLM foundations, agentic AI, context engineering, full-stack LLM, AI services *(54 scholarly sources)*
     - [**Context engineering deep dive**](ai-engineering/context-engineering.md) — the flagship article
-    - [**Full onboarding catalog**](onboarding/INDEX.md) — every guide with reading paths
-    - [**Source index**](ai-engineering/SOURCE_INDEX.md) — master bibliography of all 54 references
+    - [**Source index**](ai-engineering/SOURCE_INDEX.md) — master bibliography with annotated references
+    - [**All sources**](sources.md) — 102 deduplicated references across the entire knowledge base
 
 ---
 
-## Quick answers
+## Common questions
 
 === "Beginner"
 
@@ -60,61 +75,61 @@ Welcome to a **free, open collection** of guides, technical knowledge, and resou
     :   Start a new chat when the topic shifts. Put important facts in files (not just chat) so the assistant can re-read them. See [Working with AI context](onboarding/guides/working-with-ai-context.md).
 
     **What's the difference between Plan and Agent mode?**
-    :   **Plan** mode thinks with you and proposes changes for your review. **Agent** mode edits files and runs commands directly. Use Plan when you want control, Agent when you trust the direction. See [Installing Cursor & first steps](onboarding/guides/installing-cursor-and-first-steps.md).
+    :   **Plan** thinks with you and proposes changes for review. **Agent** edits files and runs commands directly. Use Plan when you want control, Agent when you trust the direction.
 
     **How do I share what I build?**
     :   Use Git to save versions and push to GitHub. From there you can share a repo link or publish a site with GitHub Pages. See [Git basics](onboarding/guides/git-basics-for-non-developers.md).
 
     **Can I customize how the assistant behaves?**
-    :   Yes — Cursor supports rules files (`.cursor/rules/`), slash commands, and skills that shape the assistant's behavior per project. See the [Triggers & prompts](onboarding/guides/cursor-triggers-and-prompts.md) guide.
+    :   Yes — rules files (`.cursor/rules/`), slash commands, and skills shape behavior per project. See [Triggers & prompts](onboarding/guides/cursor-triggers-and-prompts.md).
 
 === "Advanced"
 
     **What models does Cursor support?**
-    :   Claude (Anthropic), GPT-4 (OpenAI), and others — selectable per conversation. Model availability depends on your plan tier. Cursor handles the API routing; you choose the model in the chat header.
+    :   Claude (Anthropic), GPT-4 (OpenAI), and others — selectable per conversation. Model availability depends on your plan tier.
 
-    **What is context engineering and why does it matter?**
-    :   Context engineering is the practice of designing the information environment an LLM operates in — what it sees, when, and how. It directly affects output quality, hallucination rates, and agent reliability. See the [deep dive](ai-engineering/context-engineering.md).
+    **What is context engineering?**
+    :   Designing the information environment an LLM operates in — what it sees, when, and how. It directly affects output quality, hallucination rates, and agent reliability. See the [deep dive](ai-engineering/context-engineering.md).
 
     **Can I fine-tune models or bring my own API keys?**
-    :   Cursor uses its own API layer. You cannot point it at a custom fine-tuned endpoint today. For fine-tuning workflows, see the [full-stack LLM](ai-engineering/full-stack-llm.md) article — it covers training, serving, and evaluation outside the IDE.
+    :   Cursor uses its own API layer — no custom endpoints today. For fine-tuning workflows outside the IDE, see [full-stack LLM](ai-engineering/full-stack-llm.md).
 
     **How do I evaluate agent reliability?**
-    :   Track accuracy over time, compare model outputs, and build evaluation harnesses. The [AI engineering knowledge base](ai-engineering/README.md) covers evaluation frameworks, and the [source index](ai-engineering/SOURCE_INDEX.md) links to key papers on LLM benchmarking.
+    :   Track accuracy over time, compare model outputs, and build evaluation harnesses. The [AI engineering KB](ai-engineering/README.md) covers frameworks, and the [source index](ai-engineering/SOURCE_INDEX.md) links to key benchmarking papers.
 
 ---
 
-## What's in this knowledge base
+## Explore the knowledge base
 
 === "Beginner"
 
-    Focus on learning Cursor and building your first projects — no code or Git required.
+    Everything you need to get started — no technical background required.
 
-    | Section | What's inside |
-    |---------|--------------|
-    | [**Getting Started**](onboarding/guides/installing-cursor-and-first-steps.md) | Install Cursor, have your first AI conversation, and follow a first-week plan |
-    | [**Glossary**](product-management/GLOSSARY.md) | Plain-language definitions for technical terms you'll encounter |
-    | [**Curated links**](onboarding/links/README.md) | Handpicked external resources on AI safety, privacy, and research literacy |
+    | Section | What you'll find |
+    |---------|-----------------|
+    | [**Getting Started**](onboarding/guides/installing-cursor-and-first-steps.md) | Install Cursor, have your first AI conversation, follow a first-week plan |
+    | [**Glossary**](product-management/GLOSSARY.md) | Plain-language definitions for every technical term you'll encounter |
+    | [**Curated links**](onboarding/links/README.md) | Handpicked resources on AI safety, privacy, and research literacy |
 
 === "Intermediate"
 
-    You're using Cursor regularly — now learn to share work, manage context, and customize your setup.
+    Deepen your practice — context management, version control, product frameworks.
 
-    | Section | What's inside |
-    |---------|--------------|
-    | [**Getting Started**](onboarding/guides/installing-cursor-and-first-steps.md) | Guides, checklists, and reference for learning Cursor |
+    | Section | What you'll find |
+    |---------|-----------------|
     | [**Guides & Reference**](onboarding/INDEX.md) | Git basics, triggers & prompts, slash commands, session playbooks |
-    | [**Product Management**](product-management/README.md) | PM frameworks, glossary, backlog best practices |
+    | [**Product Management**](product-management/README.md) | PM frameworks, backlog best practices, quality criteria |
     | [**Companion Articles**](cursor-knowledge/README.md) | AI context reading lists, mobile web UX, Git workflow patterns |
+    | [**Glossary**](product-management/GLOSSARY.md) | Plain-language definitions for technical terms |
 
 === "Advanced"
 
-    Deep technical content — LLM architectures, agent design, evaluation, and 100+ scholarly sources.
+    Research-grade content — architectures, papers, evaluation, and 100+ sources.
 
-    | Section | What's inside |
-    |---------|--------------|
-    | [**AI Engineering**](ai-engineering/README.md) | LLM foundations, agentic AI, context engineering, full-stack LLM development, AI services & APIs |
-    | [**Sources**](sources.md) | 102 deduplicated references — research papers, vendor docs, practitioner content |
+    | Section | What you'll find |
+    |---------|-----------------|
+    | [**AI Engineering**](ai-engineering/README.md) | LLM foundations, agentic AI, context engineering, full-stack development, AI services & APIs |
+    | [**All Sources**](sources.md) | 102 deduplicated references — research papers, vendor docs, practitioner content |
     | [**Companion Articles**](cursor-knowledge/README.md) | AI context reading lists, mobile web design, backlog philosophy |
     | [**Full onboarding catalog**](onboarding/INDEX.md) | Every guide with reading paths A–D |
     | [**Product Management**](product-management/README.md) | PM knowledge base, quality criteria, backlog practices |
