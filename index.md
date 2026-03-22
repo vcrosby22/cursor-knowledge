@@ -40,17 +40,47 @@ Welcome to a **free, open collection** of guides, technical knowledge, and resou
 
 ## Quick answers
 
-**Do I need to know how to code?**
-:   No. Many people use Cursor for writing, planning, and "no-code" style work. The beginner guides assume zero programming experience.
+=== "Beginner"
 
-**Is Cursor free?**
-:   Cursor has a free tier with limited AI usage. Paid plans unlock more. See [cursor.com/pricing](https://www.cursor.com/pricing).
+    **Do I need to know how to code?**
+    :   No. Many people use Cursor for writing, planning, and "no-code" style work. The beginner guides assume zero programming experience.
 
-**What can I actually build?**
-:   Landing pages, documents, research summaries, structured plans, simple web apps, data analysis scripts, and more — depending on how far you want to go.
+    **Is Cursor free?**
+    :   Cursor has a free tier with limited AI usage. Paid plans unlock more. See [cursor.com/pricing](https://www.cursor.com/pricing).
 
-**What if I break something?**
-:   Cursor has undo. Git (version control) lets you go back to any saved point. The guides here teach both.
+    **What can I actually build?**
+    :   Landing pages, documents, research summaries, structured plans, simple web apps, and more — by describing what you want in plain language.
+
+    **What if I break something?**
+    :   Cursor has undo. Git (version control) lets you go back to any saved point. The guides here teach both.
+
+=== "Intermediate"
+
+    **How do I keep the assistant accurate in long conversations?**
+    :   Start a new chat when the topic shifts. Put important facts in files (not just chat) so the assistant can re-read them. See [Working with AI context](onboarding/guides/working-with-ai-context.md).
+
+    **What's the difference between Plan and Agent mode?**
+    :   **Plan** mode thinks with you and proposes changes for your review. **Agent** mode edits files and runs commands directly. Use Plan when you want control, Agent when you trust the direction. See [Installing Cursor & first steps](onboarding/guides/installing-cursor-and-first-steps.md).
+
+    **How do I share what I build?**
+    :   Use Git to save versions and push to GitHub. From there you can share a repo link or publish a site with GitHub Pages. See [Git basics](onboarding/guides/git-basics-for-non-developers.md).
+
+    **Can I customize how the assistant behaves?**
+    :   Yes — Cursor supports rules files (`.cursor/rules/`), slash commands, and skills that shape the assistant's behavior per project. See the [Triggers & prompts](onboarding/guides/cursor-triggers-and-prompts.md) guide.
+
+=== "Advanced"
+
+    **What models does Cursor support?**
+    :   Claude (Anthropic), GPT-4 (OpenAI), and others — selectable per conversation. Model availability depends on your plan tier. Cursor handles the API routing; you choose the model in the chat header.
+
+    **What is context engineering and why does it matter?**
+    :   Context engineering is the practice of designing the information environment an LLM operates in — what it sees, when, and how. It directly affects output quality, hallucination rates, and agent reliability. See the [deep dive](ai-engineering/context-engineering.md).
+
+    **Can I fine-tune models or bring my own API keys?**
+    :   Cursor uses its own API layer. You cannot point it at a custom fine-tuned endpoint today. For fine-tuning workflows, see the [full-stack LLM](ai-engineering/full-stack-llm.md) article — it covers training, serving, and evaluation outside the IDE.
+
+    **How do I evaluate agent reliability?**
+    :   Track accuracy over time, compare model outputs, and build evaluation harnesses. The [AI engineering knowledge base](ai-engineering/README.md) covers evaluation frameworks, and the [source index](ai-engineering/SOURCE_INDEX.md) links to key papers on LLM benchmarking.
 
 ---
 
