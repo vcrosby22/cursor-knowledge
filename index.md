@@ -1,4 +1,4 @@
-# Cursor Knowledge Base
+# AI Assisted Work
 
 Welcome to a **free, open collection** of guides, technical knowledge, and resources for learning [Cursor](https://www.cursor.com/) and AI-assisted work.
 
