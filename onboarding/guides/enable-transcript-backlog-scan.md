@@ -1,6 +1,6 @@
 # Enable “auto-scan” of past Cursor chats (BL-10)
 
-**Workspace note:** The Python script lives at **`scripts/scan_cursor_transcripts_for_backlog.py`** in a **full** monorepo, not in the minimal public `cursor-knowledge` tree. See **[`../INDEX-full-workspace-only.md`](../INDEX-full-workspace-only.md)**. Copy the script into your project or clone a workspace that already includes `scripts/`.
+**Workspace note:** The Python script lives at **`scripts/scan_cursor_transcripts_for_backlog.py`** in a **full** monorepo, not in the minimal public `ai-assisted-work` tree. See **[`../INDEX-full-workspace-only.md`](../INDEX-full-workspace-only.md)**. Copy the script into your project or clone a workspace that already includes `scripts/`.
 
 **What this is:** A **local**, **opt-in** script that reads Cursor **`agent-transcripts`** (`*.jsonl`) and writes a **draft Markdown report** of lines that look like todos / follow-ups / deferred work. **You review** the report and manually promote items to **`BACKLOG.md`** or your journal — nothing is auto-merged.
 

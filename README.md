@@ -4,7 +4,7 @@
 
 This repository is a **free, open collection** of guides, checklists, and reference material to help you get started and get better over time.
 
-**Browse the searchable site:** [**vcrosby22.github.io/cursor-knowledge**](https://vcrosby22.github.io/cursor-knowledge/) — with instant search, beginner/intermediate/advanced summaries on every page, and a modern reading experience.
+**Browse the searchable site:** [**vcrosby22.github.io/ai-assisted-work**](https://vcrosby22.github.io/ai-assisted-work/) — with instant search, beginner/intermediate/advanced summaries on every page, and a modern reading experience.
 
 ---
 

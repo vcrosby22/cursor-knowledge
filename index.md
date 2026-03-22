@@ -72,4 +72,4 @@ This knowledge base is maintained by **Victoria Crosby** ([@vcrosby22](https://g
 
 Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — share and adapt with attribution.
 
-[View on GitHub :fontawesome-brands-github:](https://github.com/vcrosby22/cursor-knowledge){ .md-button }
+[View on GitHub :fontawesome-brands-github:](https://github.com/vcrosby22/ai-assisted-work){ .md-button }

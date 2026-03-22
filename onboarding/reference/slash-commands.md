@@ -2,7 +2,7 @@
 
 Cursor lets a workspace define **slash commands**: you type `/something` in chat and the assistant follows a short recipe. Commands are **optional** and only appear when the project includes **`.cursor/commands/`** (often in a private or team template repo).
 
-This page summarizes common commands from the **where_cursor_feels_home**-style workspace so the onboarding cheatsheet works on a **bare clone** of [`cursor-knowledge`](https://github.com/vcrosby22/cursor-knowledge) (no `.cursor/` folder here).
+This page summarizes common commands from the **where_cursor_feels_home**-style workspace so the onboarding cheatsheet works on a **bare clone** of [`ai-assisted-work`](https://github.com/vcrosby22/ai-assisted-work) (no `.cursor/` folder here).
 
 ---
 

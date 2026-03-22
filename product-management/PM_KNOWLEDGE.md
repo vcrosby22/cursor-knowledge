@@ -244,7 +244,7 @@ Many knowledge-work teams (including markdown-first Cursor workspaces) use **thr
 
 ### 7.3 Private implementation (not in this public repository)
 
-The **author’s** actual prioritized list, inbox, ticket files, purpose/epic registries, and automation live in a **private** monorepo (`where_cursor_feels_home`). They are intentionally **not** published in [`vcrosby22/cursor-knowledge`](https://github.com/vcrosby22/cursor-knowledge). If you clone only this public repo, use §7.1–7.2 and [`BACKLOG_BEST_PRACTICES.md`](BACKLOG_BEST_PRACTICES.md); adopt your own tool or private files for the backlog itself.
+The **author’s** actual prioritized list, inbox, ticket files, purpose/epic registries, and automation live in a **private** monorepo (`where_cursor_feels_home`). They are intentionally **not** published in [`vcrosby22/ai-assisted-work`](https://github.com/vcrosby22/ai-assisted-work). If you clone only this public repo, use §7.1–7.2 and [`BACKLOG_BEST_PRACTICES.md`](BACKLOG_BEST_PRACTICES.md); adopt your own tool or private files for the backlog itself.
 
 ---
 

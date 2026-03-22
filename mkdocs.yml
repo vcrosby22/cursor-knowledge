@@ -1,8 +1,8 @@
-site_name: Cursor Knowledge Base
+site_name: AI Assisted Work
 site_description: Guides, technical knowledge, and resources for learning Cursor and AI-assisted work — from beginner to advanced.
-site_url: https://vcrosby22.github.io/cursor-knowledge/
-repo_url: https://github.com/vcrosby22/cursor-knowledge
-repo_name: vcrosby22/cursor-knowledge
+site_url: https://vcrosby22.github.io/ai-assisted-work/
+repo_url: https://github.com/vcrosby22/ai-assisted-work
+repo_name: vcrosby22/ai-assisted-work
 
 docs_dir: docs
 site_dir: site

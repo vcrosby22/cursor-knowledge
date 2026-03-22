@@ -1,6 +1,6 @@
 # Public document quality criteria
 
-**Who this is for:** Anyone creating or reviewing files in the public [`cursor-knowledge`](https://github.com/vcrosby22/cursor-knowledge) repository. These criteria treat every public markdown file as a **product** — with a user, a purpose, and a UI (the GitHub renderer).
+**Who this is for:** Anyone creating or reviewing files in the public [`ai-assisted-work`](https://github.com/vcrosby22/ai-assisted-work) repository. These criteria treat every public markdown file as a **product** — with a user, a purpose, and a UI (the GitHub renderer).
 
 **Why this exists:** A collection of markdown files is not automatically useful. Without intentional design, public docs become stale, hard to navigate, and full of broken links to private repos. These criteria define what "good" looks like.
 
@@ -36,7 +36,7 @@ Each criterion includes a **one-line test** you can use as a checklist.
 | 3 | **Navigation** | Table of contents, anchor links, clear heading hierarchy. | A reader can find what they need from headings alone, without scrolling the full document. |
 | 4 | **Scannable structure** | Tables for comparisons; bold key terms; short paragraphs. | A 60-second skim of headings and bold text delivers the core ideas. |
 | 5 | **Actionable content** | Real synthesized knowledge, not just a list of links. | Someone could act on this without clicking a single external link. |
-| 6 | **Self-contained on GitHub** | No broken links to private repos or monorepo-only paths. | Every link resolves on a fresh clone of `cursor-knowledge`. |
+| 6 | **Self-contained on GitHub** | No broken links to private repos or monorepo-only paths. | Every link resolves on a fresh clone of `ai-assisted-work`. |
 | 7 | **Entry points** | README and INDEX provide "start here" paths by reader type. | A first-time visitor finds the right file in under 30 seconds from the repo root. |
 | 8 | **Freshness signal** | Date or version at the bottom. | A reader can tell how current the content is. |
 | 9 | **Concise** | Every paragraph serves the stated audience. | Nothing is there "just in case" — more content makes information harder to find. |
@@ -80,4 +80,4 @@ Each criterion includes a **one-line test** you can use as a checklist.
 
 ---
 
-*Last updated: 2026-03-21. This document governs all public files in [`vcrosby22/cursor-knowledge`](https://github.com/vcrosby22/cursor-knowledge).*
+*Last updated: 2026-03-22. This document governs all public files in [`vcrosby22/ai-assisted-work`](https://github.com/vcrosby22/ai-assisted-work).*

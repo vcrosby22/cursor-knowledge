@@ -1,6 +1,6 @@
 # Catalog — full workspace only
 
-**Read this if** your clone is **not** the minimal public [`cursor-knowledge`](https://github.com/vcrosby22/cursor-knowledge) tree but a **larger workspace** that includes `BACKLOG.md`, `scripts/`, `.cursor/commands/`, `.cursor/skills/`, `BACKLOG_INBOX.md`, etc.
+**Read this if** your clone is **not** the minimal public [`ai-assisted-work`](https://github.com/vcrosby22/ai-assisted-work) tree but a **larger workspace** that includes `BACKLOG.md`, `scripts/`, `.cursor/commands/`, `.cursor/skills/`, `BACKLOG_INBOX.md`, etc.
 
 The main **[`INDEX.md`](INDEX.md)** lists only artifacts whose links work on a **standalone public clone**. Below are the **extra** entries and paths that assume that fuller layout.
 
